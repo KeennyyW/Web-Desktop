@@ -4,6 +4,9 @@ import { createGlobalStyle, ThemeProvider } from 'styled-components';
 import Window from './components/Window1';
 import MyToolbar from './components/Toolbar';
 import Appbar from './components/Appbar'; 
+import Counter from './components/Counter';
+import "98.css";
+
 
 import original from 'react95/dist/themes/original';
 import ms_sans_serif from 'react95/dist/fonts/ms_sans_serif.woff2';
@@ -41,11 +44,15 @@ const App = () => (
         <Window />
         <MenuListItem disabled>😴 Sleep</MenuListItem>
       </MenuList>
+      <button>Click me</button>
+<input type="submit" />
+<input type="reset" />
 
       </div>
-      
+
     </ThemeProvider>
-    <MyToolbar />
+    <Counter />
+    
   </div>
 );
 
