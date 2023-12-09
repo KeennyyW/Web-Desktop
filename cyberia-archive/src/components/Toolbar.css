@@ -1,0 +1,12 @@
+.ToolbarTest {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40px; /* Sie können die Höhe nach Bedarf anpassen */
+    display: flex;
+    align-items: center;
+    background-color: #008080; /* Sie können die Hintergrundfarbe nach Bedarf anpassen */
+    padding: 0 10px; /* Fügt ein Padding auf der linken und rechten Seite hinzu */
+    box-sizing: border-box; /* Stellt sicher, dass das Padding und die Höhe in die Gesamthöhe der Taskleiste einbezogen werden */
+  }
